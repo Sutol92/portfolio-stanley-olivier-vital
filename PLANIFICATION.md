@@ -24,7 +24,7 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 
 ## Projet 1
 <p align="center">
-    <img src="/medias/art_du_ragebait.png" width=200px>
+    <img src="/medias/art_du_ragebait.png" width=400px>
 </p>
 <b>Nom de votre projet:</b> L’art du ragebait <br>
 <b>Mention académique ou personnel:</b> académique <br>

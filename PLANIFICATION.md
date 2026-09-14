@@ -80,7 +80,7 @@ En premier lieu, nous avons fait une tempête d’idée pour trouver une idée q
 </p>
 Ensuite nous nous sommes mis à filmer les plans que nous avions décidé auparavant. Après chaque plan, on déplace le décors et/ou la caméra dépendamment de ce qui aidait à rendre notre prochain plan réalité.
 <p align="center">
-    <img src="/medias/behind_the_scenes_decor.jpg" width=500px>
+    <img src="/medias/behind_the_scenes_decor.jpg" width=400px>
     <img src="/medias/behind_the_scenes_oli.png" width=500px>
 </p>
 Finalement, après avoir filmé tous les plans, nous avons exporté tous les plans sur nos disques durs pour passer au montage. En compilant tous les plans que nous avions filmé et en rajoutant du son qui était adéquat pour les scènes, nous sommes arrivés à la fin de notre montage et donc la fin de notre projet.  

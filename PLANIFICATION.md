@@ -90,3 +90,19 @@ Finalement, après avoir filmé tous les plans, nous avons exporté tous les pla
 <p align="center">
     <img src="/medias/capture_ecran_davinci.png" width=800px>
 </p>
+
+## Gestion des données
+
+Je vais utilisé un Fichier JSON local
+
+## Animations
+
+J'utiliserai du css pur
+
+## Structure de navigation 
+
+One-pager avec carousel
+
+## Hébergement
+
+GitHub Pages

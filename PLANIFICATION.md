@@ -4,6 +4,7 @@
 <p align="center">
     <img src="/medias/identite_visuelle.png" width=500px>
 </p>
+
 ## Compétences :
 Réaliser et tourner des vidéos
 Animer des créations 2D et 3D

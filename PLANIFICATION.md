@@ -101,8 +101,8 @@ J'utiliserai du css pur
 
 ## Structure de navigation 
 
-One-pager avec carousel
+J'utiliserai un one-pager avec carousel
 
 ## Hébergement
 
-GitHub Pages
+J'utiliserai GitHub Pages

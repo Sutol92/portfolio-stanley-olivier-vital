@@ -23,6 +23,9 @@ Objectif de carrière
 Contribuer à la réalisation de projets qui me permettent d’être fier de mon implication et des résultats obtenus.
 
 ## Projet 1
+<p align="center">
+    <img src="/medias/art_du_ragebait.png" width=200px>
+</p>
 <b>Nom de votre projet:</b> L’art du ragebait <br>
 <b>Mention académique ou personnel:</b> académique <br>
 <b>Réalisé dans le cadre du cours:</b> Animation 2D <br>
@@ -97,12 +100,12 @@ Je vais utilisé un Fichier JSON local
 
 ## Animations
 
-J'utiliserai du css pur
+J’utiliserai du CSS pur pour faire bouger les cubes colorés qui sont éparpillés un peu partout sur mon portfolio.
 
 ## Structure de navigation 
 
-J'utiliserai un one-pager avec carousel
+J'utiliserai un one-pager avec carousel qui fera défiler mes projets en boucle.
 
 ## Hébergement
 
-J'utiliserai GitHub Pages
+J'utiliserai GitHub Pages pour héberger mes pages.

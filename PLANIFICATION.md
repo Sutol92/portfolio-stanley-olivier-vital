@@ -75,9 +75,15 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 
 ## Processus de création
 En premier lieu, nous avons fait une tempête d’idée pour trouver une idée qui allait avec les restrictions que nous avions avec le projet. Lorsque nous avons trouvé l’idée de base, nous avons décidé sur des plans que nous voulions à tout prix avoir dans notre cours métrage. Après s’avoir mis d’accord sur les plans, nous avons commencé le tournage. Nous avons placé le décor et ensuite tout l’équipement nécessaire, donc, les caméras, les light pannels et les sliders.
-<img src="/medias/behind_the_scenes_equipement.jpg">
+<p align="center">
+    <img src="/medias/behind_the_scenes_equipement.jpg" width=500px>
+</p>
 Ensuite nous nous sommes mis à filmer les plans que nous avions décidé auparavant. Après chaque plan, on déplace le décors et/ou la caméra dépendamment de ce qui aidait à rendre notre prochain plan réalité.
-<img src="/medias/behind_the_scenes_decor.jpg">
-<img src="/medias/behind_the_scenes_oli.png">
+<p align="center">
+    <img src="/medias/behind_the_scenes_decor.jpg" width=500px>
+    <img src="/medias/behind_the_scenes_oli.png" width=500px>
+</p>
 Finalement, après avoir filmé tous les plans, nous avons exporté tous les plans sur nos disques durs pour passer au montage. En compilant tous les plans que nous avions filmé et en rajoutant du son qui était adéquat pour les scènes, nous sommes arrivés à la fin de notre montage et donc la fin de notre projet.  
-<img src="/medias/behind_the_scenes_oli.png">
+<p align="center">
+    <img src="/medias/capture_ecran_davinci.png" width=500px>
+</p>

@@ -85,5 +85,5 @@ Ensuite nous nous sommes mis à filmer les plans que nous avions décidé aupara
 </p>
 Finalement, après avoir filmé tous les plans, nous avons exporté tous les plans sur nos disques durs pour passer au montage. En compilant tous les plans que nous avions filmé et en rajoutant du son qui était adéquat pour les scènes, nous sommes arrivés à la fin de notre montage et donc la fin de notre projet.  
 <p align="center">
-    <img src="/medias/capture_ecran_davinci.png" width=500px>
+    <img src="/medias/capture_ecran_davinci.png" width=800px>
 </p>

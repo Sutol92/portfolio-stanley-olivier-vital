@@ -161,7 +161,7 @@ J’utiliserai du CSS pur pour faire bouger les cubes colorés qui sont éparpil
 
 ## Structure de navigation
 
-J'utiliserai un one-pager avec carousel qui fera défiler des images de mes projets en boucle.
+J'utiliserai un one-pager avec un pop up de chacun de mes projets­.
 
 ## Hébergement
 

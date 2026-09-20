@@ -50,15 +50,16 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 <b>Description courte du projet (Résumé en 1 phrase):</b> Un professeur explique le phénomène de « ragebait » à sa salle de classe.
 
 <<<<<<< Updated upstream
-<b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b>  Réaliser un montage en motion design sur un enjeu ou une passion qui nous tiens à cœur. Le montage doit porter un propos clair et être soutenu par une narration ou un dialogue.
+<b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Réaliser un montage en motion design sur un enjeu ou une passion qui nous tiens à cœur. Le montage doit porter un propos clair et être soutenu par une narration ou un dialogue.
 
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons commencé par crée tous les médias sur Illustrator. Ensuite nous avons importé tous les médias dans After Effects et on a fait les animations. 
+<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons commencé par crée tous les médias sur Illustrator. Ensuite nous avons importé tous les médias dans After Effects et on a fait les animations.
 
 =======
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Réaliser un montage en motion design sur un enjeu ou une passion qui nous tiens à cœur. Le montage doit porter un propos clair et être soutenu par une narration ou un dialogue.
 
 <b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons commencé par crée tous les médias sur Illustrator. Ensuite nous avons importé tous les médias dans After Effects et on a fait les animations.
->>>>>>> Stashed changes
+
+> > > > > > > Stashed changes
 
 ## Projet 2
 
@@ -74,10 +75,11 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 <b>Individuel ou en équipe:</b> Individuel
 
 <<<<<<< Updated upstream
-<b>Nom de vos coéquipiers:</b> - 
+<b>Nom de vos coéquipiers:</b> -
 =======
 <b>Nom de vos coéquipiers:</b> -
->>>>>>> Stashed changes
+
+> > > > > > > Stashed changes
 
 <b>Votre ou vos rôle(s) dans le projet:</b> Création de la scène en 3D, animation, éclairage, montage
 
@@ -90,10 +92,6 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Créer une imitation de l’animation de la lampe Pixar en utilisant des formes géométriques avec un rig simple. Il doit y avoir un décor et des matériaux sur tous les éléments.
 
 <b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> J’ai trouvé en ligne un modèle de Keyblade auquel j’ai ajouté un rig. J’ai ensuite animé la Keyblade pour qu’elle suit les mouvements de la lampe Pixar.
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 ## Projet 3
 
@@ -105,15 +103,6 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 
 <b>Individuel ou en équipe:</b> Individuel
 
-<<<<<<< Updated upstream
-<b>Nom de vos coéquipiers:</b> - 
-
-<b>Votre ou vos rôle(s) dans le projet:</b> Création des scènes en 3D, création de la trame sonore, animation, composition, montage, éclairage, montage 
-
-<b>Logiciels ou techniques utilisées:</b> Maya, Davinci Resolve, Fl Studio 
-
-<b>Catégorie du projet:</b> Animation 
-=======
 <b>Nom de vos coéquipiers:</b> -
 
 <b>Votre ou vos rôle(s) dans le projet:</b> Création des scènes en 3D, création de la trame sonore, animation, composition, montage, éclairage, montage
@@ -121,17 +110,12 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 <b>Logiciels ou techniques utilisées:</b> Maya, Davinci Resolve, Fl Studio
 
 <b>Catégorie du projet:</b> Animation
->>>>>>> Stashed changes
 
 <b>Description courte du projet (Résumé en 1 phrase):</b> Une âme qui repose en paix dans des lieux paisibles fini par monter au paradis
 
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Créer un court métrage d’animation 3D d’une durée minimale de 60 secondes. Le film doit être composé de plusieurs séquences d’animation qui se déroulent dans un environnement 3D original.
 
 <b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> J’ai commencé par créer tous les environnements et les objets qui allaient être présent dans la scène. J’ai ensuite animé tous les éléments qui devait bouger.
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 ## Projet 4
 
@@ -143,11 +127,7 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 
 <b>Individuel ou en équipe:</b> En équipe
 
-<<<<<<< Updated upstream
-<b>Nom de vos coéquipiers:</b> Pablo Pereira Calderon, Luiz Felippe Avelino Sousa 
-=======
 <b>Nom de vos coéquipiers:</b> Pablo Pereira Calderon, Luiz Felippe Avelino Sousa
->>>>>>> Stashed changes
 
 <b>Votre ou vos rôle(s) dans le projet:</b> Cadreur, éclairage, monteur
 
@@ -162,10 +142,6 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 <b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons installé les caméras, les lumières et les décors. Ensuite nous avons filmé les scènes prévues.
 
 <b>Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):</b>
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 ## Processus de création
 

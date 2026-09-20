@@ -49,17 +49,10 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 
 <b>Description courte du projet (Résumé en 1 phrase):</b> Un professeur explique le phénomène de « ragebait » à sa salle de classe.
 
-<<<<<<< Updated upstream
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Réaliser un montage en motion design sur un enjeu ou une passion qui nous tiens à cœur. Le montage doit porter un propos clair et être soutenu par une narration ou un dialogue.
 
 <b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons commencé par crée tous les médias sur Illustrator. Ensuite nous avons importé tous les médias dans After Effects et on a fait les animations.
 
-=======
-<b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Réaliser un montage en motion design sur un enjeu ou une passion qui nous tiens à cœur. Le montage doit porter un propos clair et être soutenu par une narration ou un dialogue.
-
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons commencé par crée tous les médias sur Illustrator. Ensuite nous avons importé tous les médias dans After Effects et on a fait les animations.
-
-> > > > > > > Stashed changes
 
 ## Projet 2
 
@@ -74,12 +67,7 @@ Contribuer à la réalisation de projets qui me permettent d’être fier de mon
 
 <b>Individuel ou en équipe:</b> Individuel
 
-<<<<<<< Updated upstream
 <b>Nom de vos coéquipiers:</b> -
-=======
-<b>Nom de vos coéquipiers:</b> -
-
-> > > > > > > Stashed changes
 
 <b>Votre ou vos rôle(s) dans le projet:</b> Création de la scène en 3D, animation, éclairage, montage
 

@@ -53,7 +53,7 @@ Je souhaite contribuer à la réalisation de projets uniques et créatifs, qui s
 
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Réaliser un montage en motion design sur un enjeu ou une passion qui nous tiens à cœur. Le montage doit porter un propos clair et être soutenu par une narration ou un dialogue.
 
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons commencé par crée tous les médias sur Illustrator. Ensuite nous avons importé tous les médias dans After Effects et on a fait les animations.
+<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> En nous inspirant de la série animée South Park pour aller dans une direction plus humouristique, nous avons décidé de créer tous les médias sur Illustrator avec un style très simple et volontairement disloqué, afin de retrouver un charme similaire à l’aspect fait maison de la série. Ensuite, nous avons importé tous les médias dans After Effects et animé les personnages avec des mouvements saccadés, afin de créer une animation brute, spontanée et légèrement imparfaite, qui rappelle le style artisanal de South Park.
 
 ## Projet 2
 
@@ -81,7 +81,7 @@ Je souhaite contribuer à la réalisation de projets uniques et créatifs, qui s
 
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Créer une vidéo expérimentale de 1 minute 30 sur le corps humain, où l’accumulation d’images et de sons exprime une émotion, une matière ou raconte une histoire sans paroles. L’objectif est d’utiliser le corps comme langage visuel et sonore, à travers une approche sensorielle, poétique ou abstraite.
 
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Nous avons installé les caméras, les lumières et les décors. Ensuite nous avons filmé les scènes prévues.
+<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Dans ce projet, nous commencions chacune de nos journées de tournage par l’installation du matériel, notamment les caméras, les lumières, le décor, etc., avant de filmer les scènes que nous avions préalablement planifiées. Cependant, nous avons appris que, malgré l’importance de savoir et de planifier les plans que nous souhaitons obtenir dans notre court métrage, il est tout aussi important de laisser place à notre imagination pendant le tournage, puisque les plans dont nous sommes le plus fiers sont justement ceux que nous n’avions pas prévus à la base.
 
 <b>Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):</b>
 

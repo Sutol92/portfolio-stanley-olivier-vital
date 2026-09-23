@@ -8,3 +8,11 @@
 **Prompt :** Peux tu créer une réplique exact de ce portfolio en version mobile donc 402px de largeur.<br>
 **Outil :** L'IA de figma. <br>
 **Résultat :** L'IA m'a rendu une réplique très similaire à la dernière dans un format mobile. <br>
+
+**Date :** 2026-09-23
+
+**Prompt :** Crée moi une carte de projet dans la div projets et base toi sur l'image qui se trouve dans export component, je veux juste le html pour l'instant.
+
+**Outil :** Copilot
+
+**Résultat :** Il m'a généré un template d'une carte de projet

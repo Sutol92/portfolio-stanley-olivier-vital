@@ -24,3 +24,10 @@
 **Outil :** Copilot
 
 **Résultat :** Il m'a généré 2 cartes de plus et a généré le code css pour les aligner.
+
+
+**Date :** 2026-09-30
+
+**Prompt :** Ajoute et aligne le contenu pour qu'il se place comme dans portfolio.png et rajouter aussi le style, donc les couleurs et les dimensions de chaque partie
+
+**Résultat :** Il m'a fait ajouter du css et du html qui donnait les couleurs et les dimensions que je voulais pour mon projet.

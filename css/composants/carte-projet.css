@@ -3,83 +3,112 @@
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
-  border: 2px solid #c0263e;
-  background-color: #13131f;
-  color: #f5f0f2;
+  border: 1px solid rgba(255, 89, 127, 0.7);
+  background: rgba(12, 16, 28, 0.75);
+  color: var(--text);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
 }
 
-.carte-projet__visuel {
+.carte-projet__illustration {
   position: relative;
   display: flex;
-  flex: 0 0 190px;
   align-items: flex-end;
   justify-content: center;
-  padding: 24px;
-  background-color: #01aabc;
+  min-height: 190px;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.carte-projet__illustration--ragebait {
+  background:
+    linear-gradient(180deg, rgba(84, 185, 196, 0.18), rgba(8, 29, 30, 0.2)),
+    linear-gradient(135deg, #2f9db4 0%, #0a6c79 45%, #003d45 100%);
+}
+
+.carte-projet__illustration--maison {
+  background:
+    linear-gradient(180deg, rgba(255, 173, 92, 0.12), rgba(107, 57, 20, 0.32)),
+    linear-gradient(135deg, #d0a55a 0%, #d88e34 28%, #5d2d1a 100%);
+}
+
+.carte-projet__illustration--mort {
+  background:
+    linear-gradient(180deg, rgba(55, 77, 107, 0.26), rgba(2, 4, 15, 0.22)),
+    linear-gradient(135deg, #0b0f21 0%, #13355f 38%, #0f3b52 100%);
+}
+
+.carte-projet__illustration::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.12) 100%);
 }
 
 .carte-projet__annee {
   position: absolute;
-  top: 16px;
-  left: 18px;
-  margin: 0;
-  color: #f5f0f2;
-  font-weight: 700;
-}
-
-.carte-projet__illustration {
-  display: grid;
-  width: 100%;
-  min-height: 100%;
-  place-items: center;
-  background-color: #006837;
+  top: 14px;
+  left: 14px;
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 .carte-projet__titre-visuel {
+  position: relative;
+  z-index: 1;
   margin: 0;
-  color: #f5f0f2;
-  font-size: clamp(1.25rem, 2.2vw, 2rem);
+  color: rgba(255, 255, 255, 0.96);
+  font-size: clamp(1.5rem, 2vw, 2.2rem);
   font-weight: 800;
+  letter-spacing: -0.04em;
   text-align: center;
+  text-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
 .carte-projet__contenu {
   display: flex;
-  min-height: 222px;
+  flex: 1;
   flex-direction: column;
-  padding: 24px;
-  background-color: #13131f;
+  min-height: 220px;
+  padding: 1.2rem 1.1rem 1rem;
+  background: rgba(12, 16, 28, 0.9);
 }
 
 .carte-projet__etiquette,
 .carte-projet__sous-titre {
-  margin: 0;
-  color: #01aabc;
-  font-size: 0.75rem;
+  color: var(--teal);
+  font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .carte-projet__titre {
-  margin: 10px 0 4px;
-  color: #f5f0f2;
-  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  margin-top: 0.7rem;
+  margin-bottom: 0.25rem;
+  color: var(--text);
+  font-size: clamp(1.45rem, 2vw, 1.9rem);
+  letter-spacing: -0.04em;
 }
 
 .carte-projet__description {
-  margin: 16px 0;
-  color: #f5f0f2;
-  line-height: 1.5;
+  margin-top: 0.9rem;
+  color: rgba(244, 244, 248, 0.72);
+  font-size: 0.88rem;
+  line-height: 1.7;
 }
 
 .carte-projet__lien {
   margin-top: auto;
-  color: #f5f0f2;
-  font-weight: 700;
-  text-decoration: none;
+  color: var(--text);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 .carte-projet__lien:hover,
 .carte-projet__lien:focus-visible {
-  color: #01aabc;
+  color: var(--pink);
 }

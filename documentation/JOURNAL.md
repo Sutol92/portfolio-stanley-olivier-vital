@@ -16,3 +16,11 @@
 **Outil :** Copilot
 
 **Résultat :** Il m'a généré un template d'une carte de projet
+
+**Date :** 2026-09-30
+
+**Prompt :** Crée moi 2 autres cartes de projets identique a la premiere et aligne les comme on le voit dans projects.png
+
+**Outil :** Copilot
+
+**Résultat :** Il m'a généré 2 cartes de plus et a généré le code css pour les aligner.

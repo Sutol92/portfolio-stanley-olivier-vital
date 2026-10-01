@@ -38,3 +38,10 @@
 **Prompt :** Fait en sorte que le contenu prennent toute la largeur avec des marges qui ressemble a celles de l'image portfolio.png.
 
 **Résultat :** Il m'a fait donner un code qui rajouter de la marge sur l'entièreté du site alors les sections n'allaient plus jusqu'aux bordures de mon site.
+
+
+**Date :** 2026-10-01
+
+**Prompt :** Utilise la base que j'ai mis dans main.js et data.js pour faire un code qui afficherai mes cartes de projets en javascript plutot qu'avec mon html.
+
+**Résultat :** Il m'a fait donner un code qui rajouter de la marge sur l'entièreté du site alors les sections n'allaient plus jusqu'aux bordures de mon site.

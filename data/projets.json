@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ragebait",
+    "title": "L’art du ragebait",
+    "category": "2D • AFTER EFFECTS",
+    "subtitle": "CHARACTER ANIMATION",
+    "description": "En nous inspirant de la série animée South Park pour aller dans une direction plus humouristique, nous avons décidé de créer tous les médias sur Illustrator avec un style très simple et volontairement disloqué, afin de retrouver un charme similaire à l’aspect fait maison de la série. Ensuite, nous avons importé tous les médias dans After Effects et animé les personnages avec des mouvements saccadés, afin de créer une animation brute, spontanée et légèrement imparfaite, qui rappelle le style artisanal de South Park.",
+    "year": "2025",
+    "link": "#",
+    "illustrationClass": "carte-projet__illustration--ragebait"
+  },
+  {
+    "id": "maison",
+    "title": "Ascension",
+    "category": "Animation 3D • Modélisation 3D",
+    "subtitle": "ENVIRONMENT DESIGN",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2025",
+    "link": "#",
+    "illustrationClass": "carte-projet__illustration--maison"
+  },
+  {
+    "id": "mort",
+    "title": "Le toucher de la mort",
+    "category": "3D • SHORT FILM",
+    "subtitle": "SHORT FILM • STORY",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2025",
+    "link": "#",
+    "illustrationClass": "carte-projet__illustration--mort"
+  }
+]

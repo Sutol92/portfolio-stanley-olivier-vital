@@ -30,4 +30,11 @@
 
 **Prompt :** Ajoute et aligne le contenu pour qu'il se place comme dans portfolio.png et rajouter aussi le style, donc les couleurs et les dimensions de chaque partie
 
-**Résultat :** Il m'a fait ajouter du css et du html qui donnait les couleurs et les dimensions que je voulais pour mon projet.
+**Résultat :** Il m'a ajouter du css et du html qui donnait les couleurs et les dimensions que je voulais pour mon projet.
+
+
+**Date :** 2026-10-01
+
+**Prompt :** Fait en sorte que le contenu prennent toute la largeur avec des marges qui ressemble a celles de l'image portfolio.png.
+
+**Résultat :** Il m'a fait donner un code qui rajouter de la marge sur l'entièreté du site alors les sections n'allaient plus jusqu'aux bordures de mon site.

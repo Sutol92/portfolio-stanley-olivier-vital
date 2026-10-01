@@ -21,19 +21,22 @@
 
 .carte-projet__illustration--ragebait {
   background:
-    linear-gradient(180deg, rgba(84, 185, 196, 0.18), rgba(8, 29, 30, 0.2)),
+    linear-gradient(180deg, rgba(84, 185, 196, 0.2), rgba(8, 29, 30, 0.12)),
+    url("../../medias/images/art_du_ragebait.png") center center / cover no-repeat,
     linear-gradient(135deg, #2f9db4 0%, #0a6c79 45%, #003d45 100%);
 }
 
 .carte-projet__illustration--maison {
   background:
     linear-gradient(180deg, rgba(255, 173, 92, 0.12), rgba(107, 57, 20, 0.32)),
+    url("../../medias/images/ascension.jpg") center center / cover no-repeat,
     linear-gradient(135deg, #d0a55a 0%, #d88e34 28%, #5d2d1a 100%);
 }
 
 .carte-projet__illustration--mort {
   background:
     linear-gradient(180deg, rgba(55, 77, 107, 0.26), rgba(2, 4, 15, 0.22)),
+    url("../../medias/images/touche_de_la_mort.png") center center / cover no-repeat,
     linear-gradient(135deg, #0b0f21 0%, #13355f 38%, #0f3b52 100%);
 }
 

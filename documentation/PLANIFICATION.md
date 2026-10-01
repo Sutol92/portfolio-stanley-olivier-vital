@@ -81,7 +81,7 @@ Je souhaite contribuer à la réalisation de projets uniques et créatifs, qui s
 
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Créer une vidéo expérimentale de 1 minute 30 sur le corps humain, où l’accumulation d’images et de sons exprime une émotion, une matière ou raconte une histoire sans paroles. L’objectif est d’utiliser le corps comme langage visuel et sonore, à travers une approche sensorielle, poétique ou abstraite.
 
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Dans ce projet, nous commencions chacune de nos journées de tournage par l’installation du matériel, notamment les caméras, les lumières, le décor, etc., avant de filmer les scènes que nous avions préalablement planifiées. Cependant, nous avons appris que, malgré l’importance de savoir et de planifier les plans que nous souhaitons obtenir dans notre court métrage, il est tout aussi important de laisser place à notre imagination pendant le tournage, puisque les plans dont nous sommes le plus fiers sont justement ceux que nous n’avions pas prévus à la base.
+<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> Dans ce projet, nous avons voulu montrer la folie d’un homme qui prépare sa scène de crime.. Nous commencions chacune de nos journées de tournage par l’installation du matériel, notamment les caméras, les lumières, le décor, etc., avant de filmer les scènes que nous avions préalablement planifiées. Cependant, nous avons appris que, malgré l’importance de savoir et de planifier les plans que nous souhaitons obtenir dans notre court métrage, il est tout aussi important de laisser place à notre imagination pendant le tournage, puisque les plans dont nous sommes le plus fiers sont justement ceux que nous n’avions pas prévus à la base.
 
 <b>Lien vers la documentation de votre projet (photos, vidéos, extraits sonores, ...):</b>
 
@@ -156,7 +156,7 @@ Finalement, après avoir filmé tous les plans, nous avons exporté tous les pla
 
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Créer un court métrage d’animation 3D d’une durée minimale de 60 secondes. Le film doit être composé de plusieurs séquences d’animation qui se déroulent dans un environnement 3D original.
 
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> J’ai commencé par créer tous les environnements et les objets qui allaient être présent dans la scène. J’ai ensuite animé tous les éléments qui devait bouger.
+<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> J’ai animé l’histoire d’une âme qui traverse plusieurs décors paisibles avant de se rendre au paradis. J’ai commencé par créer tous les environnements et les objets qui allaient être présent dans la scène. J’ai ensuite animé tous les éléments qui devait bouger.
 
 ## Gestion des données
 

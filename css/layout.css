@@ -5,10 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: min(var(--max-width), calc(100% - 48px));
+  width: calc(100% - 32px);
   height: 86px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 0 12px;
   background: rgba(10, 15, 25, 0.7);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(8px);
@@ -93,9 +93,9 @@
 }
 
 .page {
-  width: min(var(--max-width), calc(100% - 48px));
+  width: min(92vw, 1520px);
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding: 0 0 40px;
 }
 
 .hero {
@@ -105,6 +105,7 @@
   justify-content: space-between;
   min-height: 520px;
   padding: 60px 0 30px;
+  margin-left: clamp(1.2rem, 2.8vw, 3.8rem);
   background:
     radial-gradient(circle at 14% 30%, rgba(255, 77, 109, 0.22), transparent 24%),
     linear-gradient(90deg, rgba(16, 12, 22, 0.7), rgba(18, 11, 30, 0.35));
@@ -141,9 +142,9 @@
 .hero__eyebrow {
   margin-bottom: 6px;
   color: var(--pink);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
+  font-size: clamp(5rem, 6vw, 4rem);
+  font-weight: 980;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -183,6 +184,8 @@
 
 .ticker {
   position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   overflow: hidden;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -196,13 +199,14 @@
 
 .ticker span {
   display: inline-block;
+  min-width: 100%;
   padding: 0.8rem 0;
   animation: ticker-scroll 22s linear infinite;
 }
 
 @keyframes ticker-scroll {
   from {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   to {
     transform: translateX(-50%);
@@ -211,19 +215,19 @@
 
 .section {
   position: relative;
-  padding: 72px 0 0;
+  padding: 110px 0 0;
 }
 
 .section-heading {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .section-kicker {
   margin-bottom: 10px;
   color: var(--pink);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
+  font-size: clamp(2.5rem, 2.6vw, 2.9rem);
+  font-weight: 980;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -240,23 +244,30 @@
 .projets__grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.7rem;
+  gap: 1.9rem;
+  width: min(100%, 1600px);
+  margin: 0 auto;
 }
 
 .about {
   display: grid;
-  grid-template-columns: 1.05fr 1.4fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 1.35fr;
+  gap: 1rem;
   align-items: center;
-  margin-top: 72px;
+  margin-top: 96px;
 }
 
 .about__visual {
   position: relative;
-  min-height: 328px;
+  width: 100%;
+  max-width: 430px;
+  aspect-ratio: 1 / 1;
+  margin-left: auto;
+  margin-right: 0;
   border: 1px solid rgba(255, 92, 148, 0.45);
   background: rgba(15, 23, 31, 0.7);
   overflow: hidden;
+  justify-self: center;
 }
 
 .about__visual::before {
@@ -269,9 +280,10 @@
 .about__visual-inner {
   position: absolute;
   inset: 26px 26px 18px 0;
-  background:
-    radial-gradient(circle at center, rgba(255, 255, 255, 0.12), transparent 24%),
-    linear-gradient(120deg, rgba(17, 28, 34, 0.98), rgba(119, 20, 46, 0.5));
+  background-image: url("../medias/images/standogs.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 1px solid rgba(255, 84, 123, 0.4);
 }
 
@@ -288,11 +300,18 @@
 }
 
 .about__content {
-  padding-left: 0.5rem;
+  padding-left: 0.25rem;
+  margin-left: -0.25rem;
 }
 
-.section-kicker--inline {
+.about__content .section-kicker--inline {
   margin-bottom: 18px;
+  color: var(--pink) !important;
+  font-size: clamp(2.5rem, 2.6vw, 2.9rem);
+  font-weight: 980;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 .about__content h2 {
@@ -377,7 +396,7 @@
   align-items: flex-end;
   justify-content: space-between;
   gap: 2rem;
-  padding-top: 90px;
+  padding-top: 110px;
 }
 
 .contact__content {
@@ -401,7 +420,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: min(var(--max-width), calc(100% - 48px));
+  width: calc(100% - 44px);
   margin: 40px auto 0;
   padding: 1.25rem 0 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);

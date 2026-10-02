@@ -7,7 +7,7 @@
     "description": "En nous inspirant de la série animée South Park pour aller dans une direction plus humouristique, nous avons décidé de créer tous les médias sur Illustrator avec un style très simple et volontairement disloqué, afin de retrouver un charme similaire à l’aspect fait maison de la série. Ensuite, nous avons importé tous les médias dans After Effects et animé les personnages avec des mouvements saccadés, afin de créer une animation brute, spontanée et légèrement imparfaite, qui rappelle le style artisanal de South Park.",
     "year": "2025",
     "link": "#",
-    "illustrationClass": "carte-projet__illustration--ragebait"
+    "image": "./medias/images/art_du_ragebait.png"
   },
   {
     "id": "maison",
@@ -17,7 +17,7 @@
     "description": "J’ai animé l’histoire d’une âme qui traverse plusieurs décors paisibles avant de se rendre au paradis. J’ai commencé par créer tous les environnements et les objets qui allaient être présents dans la scène. J’ai ensuite animé tous les éléments qui devaient bouger.",
     "year": "2026",
     "link": "#",
-    "illustrationClass": "carte-projet__illustration--maison"
+    "image": "./medias/images/ascension.jpg"
   },
   {
     "id": "mort",
@@ -27,36 +27,56 @@
     "description": "Dans ce projet, nous avons voulu montrer la folie d’un homme qui prépare sa scène de crime. Nous commencions chacune de nos journées de tournage par l’installation du matériel, notamment les caméras, les lumières et le décor, avant de filmer les scènes que nous avions préalablement planifiées. Cependant, nous avons appris que, malgré l’importance de planifier les plans que nous souhaitons obtenir dans notre court métrage, il est tout aussi important de laisser place à notre imagination pendant le tournage, puisque les plans dont nous sommes le plus fiers sont justement ceux que nous n’avions pas prévus au départ.",
     "year": "2025",
     "link": "#",
-    "illustrationClass": "carte-projet__illustration--mort"
+    "image": "./medias/images/touche_de_la_mort.png",
+    "modalSections": [
+      {
+        "title": "Préparation du tournage",
+        "text": "En premier lieu, nous avons fait une tempête d’idée pour trouver une idée qui allait avec les restrictions que nous avions avec le projet. Lorsque nous avons trouvé l’idée de base, nous avons décidé sur des plans que nous voulions à tout prix avoir dans notre cours métrage. Après s’avoir mis d’accord sur les plans, nous avons commencé le tournage. Nous avons placé le décor et ensuite tout l’équipement nécessaire, donc, les caméras, les light pannels et les sliders.",
+        "image": "./medias/images/behind_the_scenes_equipement.jpg"
+      },
+      {
+        "title": "Tournage",
+        "text": "Ensuite nous nous sommes mis à filmer les plans que nous avions décidé auparavant. Après chaque plan, on déplace le décors et/ou la caméra dépendamment de ce qui aidait à rendre notre prochain plan réalité.",
+        "images": [
+          "./medias/images/behind_the_scenes_decor.jpg",
+          "./medias/images/behind_the_scenes_mort.jpg"
+        ]
+      },
+      {
+        "title": "Montage",
+        "text": "Finalement, après avoir filmé tous les plans, nous avons exporté tous les plans sur nos disques durs pour passer au montage. En compilant tous les plans que nous avions filmé et en rajoutant du son qui était adéquat pour les scènes, nous sommes arrivés à la fin de notre montage et donc la fin de notre projet.",
+        "image": "./medias/images/capture_ecran_davinci.png"
+      }
+    ]
   },
   {
     "id": "pastiche-pixar",
     "title": "Pastiche Pixar",
-    "category": "LOREM IPSUM",
-    "subtitle": "LOREM IPSUM",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eget magna fermentum iaculis.",
+    "category": "Animation 3D",
+    "subtitle": "Rigging • Animation 3D",
+    "description": "Pour recréer la scène de la lampe pixar, j’ai utilisé un modèle 3D de la lampe et l’ai animé pour qu’elle suive les mouvements d’un personnage. J’ai trouvé en ligne un modèle de Keyblade auquel j’ai ajouté un rig. J’ai ensuite animé la Keyblade pour qu’elle suit les mouvements de la lampe Pixar.",
     "year": "2026",
     "link": "#",
-    "illustrationClass": "carte-projet__illustration--pastiche-pixar"
+    "image": "./medias/images/pastiche_pixar.png"
   },
   {
     "id": "poishomme",
     "title": "Poishomme",
-    "category": "LOREM IPSUM",
-    "subtitle": "LOREM IPSUM",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "year": "2026",
+    "category": "Video • COURT METRAGE",
+    "subtitle": "COURT METRAGE",
+    "description": "Poishomme est un court métrage d'une histoire étrange ou un homme qui a une obsession étrange envers les poissons fini par devenir un poisson lui-même.",
+    "year": "2024",
     "link": "#",
-    "illustrationClass": "carte-projet__illustration--poishomme"
+    "image": "./medias/images/poisshomme.png"
   },
   {
     "id": "the-slip",
     "title": "The Slip",
-    "category": "LOREM IPSUM",
-    "subtitle": "LOREM IPSUM",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "year": "2026",
+    "category": "Video • STOP MOTION",
+    "subtitle": "STOP MOTION",
+    "description": "The Slip est un court métrage en stop motion qui raconte l'histoire d'un homme qui se balade dans un monde noir et étrange qui se fait suivre par un monstre qui est représenté par une main humaine.",
+    "year": "2025",
     "link": "#",
-    "illustrationClass": "carte-projet__illustration--the-slip"
+    "image": "./medias/images/the_slip.png"
   }
 ]

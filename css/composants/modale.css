@@ -1,108 +1,177 @@
+/* styles modale pour le projet, modale = les pop ups */
 .is-modal-open {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .project-modal[hidden] {
-	display: none !important;
+  display: none !important;
 }
 
+/* Couche plein écran qui recouvre la page lorsqu'un projet est ouvert. */
 .project-modal {
-	position: fixed;
-	inset: 0;
-	z-index: 40;
-	display: grid;
-	place-items: center;
-	padding: 2rem 1rem;
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  padding: 2rem 1rem;
+  
 }
 
+/* le flou par dessus le reste du site quand le pop up est ouvert */
 .project-modal__backdrop {
-	position: absolute;
-	inset: 0;
-	background: rgba(5, 7, 15, 0.78);
-	backdrop-filter: blur(8px);
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 7, 15, 0.78);
+  backdrop-filter: blur(8px);
 }
 
 .project-modal__panel {
-	position: relative;
-	z-index: 1;
-	width: min(92vw, 1530px);
-	max-height: calc(100vh - 4rem);
-	overflow: auto;
-	border: 1px solid rgba(255, 255, 255, 0.04);
-	background: rgba(13, 15, 30, 0.98);
-	box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  position: relative;
+  z-index: 1;
+  width: min(92vw, 1530px);
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(13, 15, 30, 0.98);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+  /* Fenêtre centrée contenant les médias et les détails du projet. */
 }
 
 .project-modal__close {
-	position: absolute;
-	top: 16px;
-	right: 16px;
-	z-index: 2;
-	width: 42px;
-	height: 42px;
-	border: 0;
-	border-radius: 50%;
-	background: rgba(255, 255, 255, 0.12);
-	color: var(--text);
-	font-size: 1.7rem;
-	line-height: 1;
-	cursor: pointer;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--text);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
+/* Image du pop up */
 .project-modal__media {
-	min-height: min(52vw, 620px);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  min-height: min(52vw, 620px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
+/* texte/contenu de la modale */
 .project-modal__content {
-	padding: 1.5rem 1.4rem 2.2rem;
+  padding: 1.5rem 1.4rem 2.2rem;
 }
 
 .project-modal__meta {
-	color: rgba(244, 244, 248, 0.62);
-	font-size: 0.82rem;
-	font-weight: 700;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
+  color: rgba(244, 244, 248, 0.62);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .project-modal__title {
-	margin-top: 0.75rem;
-	color: var(--text);
-	font-size: clamp(2.2rem, 4vw, 4rem);
-	line-height: 0.95;
-	letter-spacing: -0.06em;
+  margin-top: 0.75rem;
+  color: var(--text);
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
 }
 
 .project-modal__subtitle {
-	margin-top: 1rem;
-	color: var(--teal);
-	font-size: 0.76rem;
-	font-weight: 700;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
+  margin-top: 1rem;
+  color: var(--teal);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .project-modal__description {
-	max-width: 1040px;
-	margin-top: 1rem;
-	color: rgba(244, 244, 248, 0.72);
-	font-size: 1rem;
-	line-height: 1.75;
+  max-width: 1040px;
+  margin-top: 1rem;
+  color: rgba(244, 244, 248, 0.72);
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
+/* Sections de plus pour les détails du toucher de la mort */
+.project-modal__sections {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.project-modal__section {
+  display: grid;
+  gap: 0.85rem;
+  justify-items: center;
+}
+
+.project-modal__section-media {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  min-height: 0;
+}
+
+.project-modal__section-media img {
+  display: block;
+  width: min(560px, 100%);
+  height: 290px;
+  object-fit: cover;
+}
+
+.project-modal__section-copy {
+  width: min(100%, 900px);
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-modal__section-copy h4 {
+  color: var(--teal);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.project-modal__section-copy p {
+  margin-top: 0.75rem;
+  color: rgba(244, 244, 248, 0.72);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+/* version mobile du modale donc les pop ups */
 @media (max-width: 900px) {
-	.project-modal {
-		padding: 1rem;
-	}
+  .project-modal {
+    padding: 1rem;
+  }
 
-	.project-modal__content {
-		padding: 1.2rem 1rem 1.6rem;
-	}
+  .project-modal__content {
+    padding: 1.2rem 1rem 1.6rem;
+  }
 
-	.project-modal__media {
-		min-height: 56vw;
-	}
+  .project-modal__media {
+    min-height: 56vw;
+  }
+
+  .project-modal__section {
+    width: 100%;
+  }
+
+  .project-modal__section-media {
+    flex-wrap: wrap;
+  }
+
+  .project-modal__section-media img {
+    width: min(440px, 100%);
+    height: 240px;
+  }
 }
+/* En version mobile, les contenus de la modale passent en une colonne sur les écrans étroits. */

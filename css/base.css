@@ -1,3 +1,4 @@
+/* Évite que les bordures et les espacements agrandissent les éléments. */
 * {
   box-sizing: border-box;
 }
@@ -6,6 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Fond général et règles de base de la page. */
 body {
   margin: 0;
   overflow-x: hidden;
@@ -21,11 +23,13 @@ a {
   text-decoration: none;
 }
 
+/* Les images restent contenues dans leur conteneur*/
 img {
   display: block;
   max-width: 100%;
 }
 
+/* données de base pour les textes */
 button,
 input,
 textarea,

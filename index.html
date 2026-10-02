@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/composants/navigation.css" />
   </head>
   <body>
+    <!-- header avec logo, nav bar, bouton de contact et menu mobile. -->
     <header class="site-header">
       <a href="#accueil" class="site-header__logo" aria-label="Accueil">
         <img
@@ -21,37 +22,78 @@
         />
       </a>
 
-      <nav class="site-header__nav" aria-label="Navigation principale">
+      <nav
+        class="site-header__nav"
+        id="navigation-principale"
+        aria-label="Navigation principale"
+      >
         <a href="#projets">PROJETS</a>
         <a href="#competences">COMPÉTENCES</a>
         <a href="#a-propos">À PROPOS</a>
         <a href="#contact">CONTACT</a>
       </nav>
 
-      <a href="#contact" class="btn btn--primary site-header__cta">ME CONTACTER</a>
+      <a href="#contact" class="btn btn--primary site-header__cta"
+        >ME CONTACTER</a
+      >
+
+      <!-- Les trois spans se transforment en menu hamburger et en X par le CSS. -->
+      <button
+        class="site-header__menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation-principale"
+        aria-label="Ouvrir le menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
 
     <main class="page">
+      <!-- Section hero -->
       <section class="hero" id="accueil">
         <div class="hero__content">
           <p class="hero__eyebrow">PORTFOLIO</p>
           <h1>
             <span class="hero__title-block">STANLEY</span>
-            <span class="hero__title-block hero__title-block--secondary">OLIVIER VITAL</span>
+            <span class="hero__title-block hero__title-block--secondary"
+              >OLIVIER VITAL</span
+            >
           </h1>
           <p class="hero__subtitle">
-            Étudiant 3D en motion design, création de personnages expressifs et de
-            visuels dynamiques pour l’écran.
+            Étudiant 3D en motion design, création de personnages expressifs et
+            de visuels dynamiques pour l’écran.
           </p>
         </div>
 
-        <a href="#projets" class="btn btn--primary hero__cta">VOIR MES PROJETS</a>
+        <a href="#projets" class="btn btn--primary hero__cta"
+          >VOIR MES PROJETS</a
+        >
       </section>
 
+      <!-- 2 textes qui répètent les mêmes compétences pour avoir un défilement qui continue -->
       <div class="ticker" aria-label="Compétences et domaines">
-        <span>• RIGGING • CHARACTER DESIGN • RENDU • MOTION DESIGN • RIGGING • CHARACTER DESIGN • RENDU • MOTION DESIGN •</span>
+        <div class="ticker__track">
+          <span>
+            • RIGGING • ANIMATION • RENDU • MOTION DESIGN • RIGGING • ANIMATION
+            • RENDU • MOTION DESIGN • RIGGING • ANIMATION • RENDU • MOTION
+            DESIGN • RIGGING • ANIMATION • RENDU • MOTION DESIGN • RIGGING •
+            ANIMATION • RENDU • MOTION DESIGN • RIGGING • ANIMATION • RENDU •
+            MOTION DESIGN •
+          </span>
+          <span aria-hidden="true">
+            • RIGGING • ANIMATION • RENDU • MOTION DESIGN • RIGGING • ANIMATION
+            • RENDU • MOTION DESIGN • RIGGING • ANIMATION • RENDU • MOTION
+            DESIGN • RIGGING • ANIMATION • RENDU • MOTION DESIGN • RIGGING •
+            ANIMATION • RENDU • MOTION DESIGN • RIGGING • ANIMATION • RENDU •
+            MOTION DESIGN •
+          </span>
+        </div>
       </div>
 
+      <!-- La grille est vide dans le HTML parce que le javascript crée les cartes -->
       <section class="section projets" id="projets">
         <div class="section-heading">
           <p class="section-kicker">MES TRAVAUX</p>
@@ -61,20 +103,18 @@
         <div class="projets__grid" aria-live="polite"></div>
       </section>
 
+      <!-- Section compétences-->
       <section class="section competences" id="competences">
         <div class="section-heading">
           <p class="section-kicker">SAVOIR-FAIRE</p>
-          <h2>COMPÉTENCES &amp;<br />LOGICIELS</h2>
+          <h2>COMPÉTENCES &<br />LOGICIELS</h2>
         </div>
 
         <div class="competences__grid">
           <article class="competence-card">
             <h3>LOGICIELS 3D</h3>
             <ul>
-              <li>Blender</li>
-              <li>Substance 3D</li>
-              <li>Houdini</li>
-              <li>Photoshop</li>
+              <li>Maya</li>
             </ul>
           </article>
 
@@ -82,34 +122,33 @@
             <h3>ANIMATION</h3>
             <ul>
               <li>Character Animation</li>
+              <li>Modeling</li>
               <li>Rigging</li>
-              <li>Facial Animation</li>
-              <li>Motion Design</li>
             </ul>
           </article>
 
           <article class="competence-card">
-            <h3>RENDER &amp; FX</h3>
+            <h3>MONTAGE & FX</h3>
             <ul>
-              <li>Arnold</li>
-              <li>V-Ray</li>
+              <li>Davinci Resolve</li>
+              <li>Maya</li>
               <li>After Effects</li>
-              <li>Premiere Pro</li>
             </ul>
           </article>
 
           <article class="competence-card">
-            <h3>2D &amp; CONCEPT</h3>
+            <h3>2D & CONCEPT</h3>
             <ul>
               <li>Storyboard</li>
-              <li>Character Design</li>
-              <li>Concept Art</li>
+              <li>Animation</li>
               <li>Illustration</li>
+              <li>Krita</li>
             </ul>
           </article>
         </div>
       </section>
 
+      <!-- Section à propos -->
       <section class="section about" id="a-propos">
         <div class="about__visual" aria-hidden="true">
           <div class="about__visual-inner"></div>
@@ -123,14 +162,14 @@
           </h2>
 
           <p>
-            Je m’appelle Stanley Olivier Vital, étudiant passionné en animation 3D,
-            créatif et curieux qui aime donner vie à des personnages expressifs et
-            des mondes immersifs.
+            Je m’appelle Stanley Olivier Vital, étudiant passionné en animation
+            3D, créatif et curieux qui aime donner vie à des personnages
+            expressifs et des mondes immersifs.
           </p>
           <p>
-            Mon univers visuel est influencé par les créations inspirées du cinéma,
-            de la science-fiction et de l’environnement. J’aime travailler sur des
-            visuels qui allient storytelling, rythme et esthétique forte.
+            Je souhaite contribuer à la réalisation de projets uniques et
+            créatifs, qui se démarquent par leur originalité et leur capacité à
+            sortir de l’ordinaire.
           </p>
 
           <div class="about__meta">
@@ -141,23 +180,33 @@
         </div>
       </section>
 
+      <!-- Section de contact : le bouton email et le lien vers Instagram. -->
       <section class="section contact" id="contact">
         <div class="contact__content">
           <p class="section-kicker">TRAVAILLONS ENSEMBLE</p>
           <h2>CONTACTEZ<br />MOI</h2>
           <p>
-            Vous cherchez un animateur 3D passionné pour un projet de storytelling,
-            motion design ou visuels immersifs ?
+            Vous cherchez un animateur 3D passionné pour un projet de
+            storytelling, motion design ou visuels immersifs ?
           </p>
         </div>
 
         <div class="contact__actions">
-          <a href="mailto:stanley.vital@example.com" class="btn btn--primary">ENVOYER UN EMAIL</a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="btn btn--secondary">LINKEDIN</a>
+          <a href="mailto:stanleyovital@gmail.com" class="btn btn--primary"
+            >ENVOYER UN EMAIL</a
+          >
+          <a
+            href="https://www.instagram.com/stanley_o.v/"
+            target="_blank"
+            rel="noreferrer"
+            class="btn btn--secondary"
+            >INSTAGRAM</a
+          >
         </div>
       </section>
     </main>
 
+    <!-- Pied de page avec l’année et des raccourcis de navigation. -->
     <footer class="site-footer">
       <p>2026</p>
       <nav aria-label="Informations du site">
@@ -166,7 +215,7 @@
       </nav>
     </footer>
 
-    <script src="./js/data.js"></script>
+    <!-- modale.js doit être chargé avant main.js, qui lui transmet les projets à afficher. -->
     <script src="./js/composants/modale.js"></script>
     <script src="./js/main.js"></script>
   </body>

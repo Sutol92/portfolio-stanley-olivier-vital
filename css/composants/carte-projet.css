@@ -8,7 +8,10 @@
   color: var(--text);
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .carte-projet:hover,
@@ -35,7 +38,8 @@
 .carte-projet__illustration--ragebait {
   background:
     linear-gradient(180deg, rgba(84, 185, 196, 0.2), rgba(8, 29, 30, 0.12)),
-    url("../../medias/images/art_du_ragebait.png") center center / cover no-repeat,
+    url("../../medias/images/art_du_ragebait.png") center center / cover
+      no-repeat,
     linear-gradient(135deg, #2f9db4 0%, #0a6c79 45%, #003d45 100%);
 }
 
@@ -49,8 +53,31 @@
 .carte-projet__illustration--mort {
   background:
     linear-gradient(180deg, rgba(55, 77, 107, 0.26), rgba(2, 4, 15, 0.22)),
-    url("../../medias/images/touche_de_la_mort.png") center center / cover no-repeat,
+    url("../../medias/images/touche_de_la_mort.png") center center / cover
+      no-repeat,
     linear-gradient(135deg, #0b0f21 0%, #13355f 38%, #0f3b52 100%);
+}
+
+.carte-projet__illustration--pastiche-pixar {
+  background:
+    linear-gradient(180deg, rgba(255, 173, 92, 0.12), rgba(31, 18, 62, 0.35)),
+    url("../../medias/images/pastiche_pixar.png") center center / cover
+      no-repeat,
+    linear-gradient(135deg, #f09a4f 0%, #b83d69 46%, #321d67 100%);
+}
+
+.carte-projet__illustration--poishomme {
+  background:
+    linear-gradient(180deg, rgba(28, 202, 216, 0.12), rgba(15, 20, 45, 0.32)),
+    url("../../medias/images/poisshomme.png") center center / cover no-repeat,
+    linear-gradient(135deg, #1ccad8 0%, #3150a6 48%, #241b51 100%);
+}
+
+.carte-projet__illustration--the-slip {
+  background:
+    linear-gradient(180deg, rgba(255, 77, 109, 0.12), rgba(12, 16, 40, 0.32)),
+    url("../../medias/images/the_slip.png") center center / cover no-repeat,
+    linear-gradient(135deg, #ff4d6d 0%, #8d315e 48%, #211b4e 100%);
 }
 
 .carte-projet__illustration::before {

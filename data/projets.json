@@ -14,19 +14,49 @@
     "title": "Ascension",
     "category": "Animation 3D • Modélisation 3D",
     "subtitle": "ENVIRONMENT DESIGN",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "year": "2025",
+    "description": "J’ai animé l’histoire d’une âme qui traverse plusieurs décors paisibles avant de se rendre au paradis. J’ai commencé par créer tous les environnements et les objets qui allaient être présents dans la scène. J’ai ensuite animé tous les éléments qui devaient bouger.",
+    "year": "2026",
     "link": "#",
     "illustrationClass": "carte-projet__illustration--maison"
   },
   {
     "id": "mort",
     "title": "Le toucher de la mort",
-    "category": "3D • SHORT FILM",
-    "subtitle": "SHORT FILM • STORY",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "category": "Video • COURT METRAGE",
+    "subtitle": "COURT METRAGE",
+    "description": "Dans ce projet, nous avons voulu montrer la folie d’un homme qui prépare sa scène de crime. Nous commencions chacune de nos journées de tournage par l’installation du matériel, notamment les caméras, les lumières et le décor, avant de filmer les scènes que nous avions préalablement planifiées. Cependant, nous avons appris que, malgré l’importance de planifier les plans que nous souhaitons obtenir dans notre court métrage, il est tout aussi important de laisser place à notre imagination pendant le tournage, puisque les plans dont nous sommes le plus fiers sont justement ceux que nous n’avions pas prévus au départ.",
     "year": "2025",
     "link": "#",
     "illustrationClass": "carte-projet__illustration--mort"
+  },
+  {
+    "id": "pastiche-pixar",
+    "title": "Pastiche Pixar",
+    "category": "LOREM IPSUM",
+    "subtitle": "LOREM IPSUM",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eget magna fermentum iaculis.",
+    "year": "2026",
+    "link": "#",
+    "illustrationClass": "carte-projet__illustration--pastiche-pixar"
+  },
+  {
+    "id": "poishomme",
+    "title": "Poishomme",
+    "category": "LOREM IPSUM",
+    "subtitle": "LOREM IPSUM",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2026",
+    "link": "#",
+    "illustrationClass": "carte-projet__illustration--poishomme"
+  },
+  {
+    "id": "the-slip",
+    "title": "The Slip",
+    "category": "LOREM IPSUM",
+    "subtitle": "LOREM IPSUM",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "year": "2026",
+    "link": "#",
+    "illustrationClass": "carte-projet__illustration--the-slip"
   }
 ]

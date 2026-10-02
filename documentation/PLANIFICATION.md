@@ -156,7 +156,7 @@ Finalement, après avoir filmé tous les plans, nous avons exporté tous les pla
 
 <b>Description du projet (Qu'est-ce que le prof vous a demandé de réaliser?) (2 phrases):</b> Créer un court métrage d’animation 3D d’une durée minimale de 60 secondes. Le film doit être composé de plusieurs séquences d’animation qui se déroulent dans un environnement 3D original.
 
-<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> J’ai animé l’histoire d’une âme qui traverse plusieurs décors paisibles avant de se rendre au paradis. J’ai commencé par créer tous les environnements et les objets qui allaient être présent dans la scène. J’ai ensuite animé tous les éléments qui devait bouger.
+<b>Description de votre projet (Qu'est-ce que vous avez fait?) (2 phrases):</b> J’ai animé l’histoire d’une âme qui traverse plusieurs décors paisibles avant de se rendre au paradis. J’ai commencé par créer tous les environnements et les objets qui allaient être présents dans la scène. J’ai ensuite animé tous les éléments qui devaient bouger.
 
 ## Gestion des données
 

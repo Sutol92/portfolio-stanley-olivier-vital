@@ -5,12 +5,16 @@
 **Outil :** Figma make
 
 **Résultat :** L'IA à créer un site portfolio conforme à mon moodboard et à ma pallette de couleur
-<br>
 
-**Date :** 2026-09-13 <br>
-**Prompt :** Peux tu créer une réplique exact de ce portfolio en version mobile donc 402px de largeur.<br>
-**Outil :** L'IA de figma. <br>
-**Résultat :** L'IA m'a rendu une réplique très similaire à la dernière dans un format mobile. <br>
+
+**Date :** 2026-09-13
+
+**Prompt :** Peux tu créer une réplique exact de ce portfolio en version mobile donc 402px de largeur.
+
+**Outil :** L'IA de figma.
+
+**Résultat :** L'IA m'a rendu une réplique très similaire à la dernière dans un format mobile.
+
 
 **Date :** 2026-09-23
 

@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
   background:
     radial-gradient(circle at top left, rgba(255, 64, 102, 0.18), transparent 30%),

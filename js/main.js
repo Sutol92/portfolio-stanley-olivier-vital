@@ -1,29 +1,6 @@
-async function loadProjects() {
-    const response = await fetch('data/projects.json');
-    const projects = await response.json();
-    return projects;
-}
-
-async function init() {
-    const projects = await loadProjects();
-    console.table(projects);
-    // ÉTAPE 2 : parcourir le tableau avec forEach()
-    // Afficher le titre de chaque projet dans la console
-    projects.forEach(project => {
-        console.log(project.title);
-    });
-    const grid = document.querySelector('.projects__grid');
-    projects.forEach(project => {
-    grid.innerHTML += createProjectCard(project);
-  });
-
-}
-
-init();
-
 function createProjectCard(project) {
   return `
-    <article class="carte-projet">
+    <article class="carte-projet" data-project-id="${project.id || ''}" tabindex="0" role="button" aria-label="Voir le projet ${project.title || ''}">
       <div class="carte-projet__illustration ${project.illustrationClass || ''}">
         <span class="carte-projet__annee">${project.year || ''}</span>
       </div>
@@ -33,15 +10,25 @@ function createProjectCard(project) {
         <h3 class="carte-projet__titre">${project.title || ''}</h3>
         <p class="carte-projet__sous-titre">${project.subtitle || ''}</p>
         <p class="carte-projet__description">${project.description || ''}</p>
-        <a class="carte-projet__lien" href="${project.link || '#'}" aria-label="Voir le projet ${project.title || ''}">
+        <button class="carte-projet__lien" type="button" data-project-id="${project.id || ''}" aria-label="Voir le projet ${project.title || ''}">
           VOIR LE PROJET →
-        </a>
+        </button>
       </div>
     </article>
   `;
 }
 
-function renderProjects() {
+async function loadProjects() {
+  const response = await fetch('./data/projets.json');
+
+  if (!response.ok) {
+    throw new Error(`Impossible de charger les projets (${response.status})`);
+  }
+
+  return response.json();
+}
+
+function renderProjects(projects) {
   const grid = document.querySelector('.projets__grid');
 
   if (!grid) {
@@ -51,4 +38,27 @@ function renderProjects() {
   grid.innerHTML = projects.map(createProjectCard).join('');
 }
 
-renderProjects();
+function initProjectModal(projects) {
+  if (typeof window.initModaleProjet !== 'function') {
+    return;
+  }
+
+  window.initModaleProjet(projects);
+}
+
+async function init() {
+  try {
+    const projects = await loadProjects();
+    renderProjects(projects);
+    initProjectModal(projects);
+  } catch (error) {
+    console.error(error);
+    const grid = document.querySelector('.projets__grid');
+
+    if (grid) {
+      grid.innerHTML = '<p>Les projets n\'ont pas pu être chargés pour le moment.</p>';
+    }
+  }
+}
+
+init();

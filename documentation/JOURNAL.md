@@ -45,3 +45,9 @@
 **Prompt :** Utilise la base que j'ai mis dans main.js et data.js pour faire un code qui afficherai mes cartes de projets en javascript plutot qu'avec mon html.
 
 **Résultat :** Il m'a fait donner un code qui rajouter de la marge sur l'entièreté du site alors les sections n'allaient plus jusqu'aux bordures de mon site.
+
+**Date :** 2026-10-01
+
+**Prompt :** Fait en sorte que si on appui sur voir le projet un pop up qui apparaitrait comme le popup.png avec les informations du ficher projets.json qui remplissent l'information en dessous de l'image.
+
+**Résulat :** Il m'a donné un code qui donnait un pop up a chaque fois que j'appuyais sur "voir le projet"

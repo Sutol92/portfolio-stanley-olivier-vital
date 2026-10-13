@@ -7,7 +7,8 @@
     "description": "En nous inspirant de la série animée South Park pour aller dans une direction plus humouristique, nous avons décidé de créer tous les médias sur Illustrator avec un style très simple et volontairement disloqué, afin de retrouver un charme similaire à l’aspect fait maison de la série. Ensuite, nous avons importé tous les médias dans After Effects et animé les personnages avec des mouvements saccadés, afin de créer une animation brute, spontanée et légèrement imparfaite, qui rappelle le style artisanal de South Park.",
     "year": "2025",
     "link": "#",
-    "image": "./medias/images/art_du_ragebait.png"
+    "image": "./medias/images/art_du_ragebait.png",
+    "modalVideo": "https://www.youtube.com/embed/TtMNReYfaI8"
   },
   {
     "id": "maison",
@@ -17,7 +18,8 @@
     "description": "J’ai animé l’histoire d’une âme qui traverse plusieurs décors paisibles avant de se rendre au paradis. J’ai commencé par créer tous les environnements et les objets qui allaient être présents dans la scène. J’ai ensuite animé tous les éléments qui devaient bouger.",
     "year": "2026",
     "link": "#",
-    "image": "./medias/images/ascension.jpg"
+    "image": "./medias/images/ascension.jpg",
+    "modalVideo": "https://www.youtube.com/embed/gV8NzDL91bE"
   },
   {
     "id": "mort",
@@ -28,6 +30,7 @@
     "year": "2025",
     "link": "#",
     "image": "./medias/images/touche_de_la_mort.png",
+    "modalVideo": "https://www.youtube.com/embed/JTh6l2Lr5t0",
     "modalSections": [
       {
         "title": "Préparation du tournage",
@@ -57,7 +60,8 @@
     "description": "Pour recréer la scène de la lampe pixar, j’ai utilisé un modèle 3D de la lampe et l’ai animé pour qu’elle suive les mouvements d’un personnage. J’ai trouvé en ligne un modèle de Keyblade auquel j’ai ajouté un rig. J’ai ensuite animé la Keyblade pour qu’elle suit les mouvements de la lampe Pixar.",
     "year": "2026",
     "link": "#",
-    "image": "./medias/images/pastiche_pixar.png"
+    "image": "./medias/images/pastiche_pixar.png",
+    "modalVideo": "https://www.youtube.com/embed/nUTaX4419N8"
   },
   {
     "id": "poishomme",
@@ -67,7 +71,8 @@
     "description": "Poishomme est un court métrage d'une histoire étrange ou un homme qui a une obsession étrange envers les poissons fini par devenir un poisson lui-même.",
     "year": "2024",
     "link": "#",
-    "image": "./medias/images/poisshomme.png"
+    "image": "./medias/images/poisshomme.png",
+    "modalVideo": "https://www.youtube.com/embed/6Ix1aUWHt0Y"
   },
   {
     "id": "the-slip",
@@ -77,6 +82,7 @@
     "description": "The Slip est un court métrage en stop motion qui raconte l'histoire d'un homme qui se balade dans un monde noir et étrange qui se fait suivre par un monstre qui est représenté par une main humaine.",
     "year": "2025",
     "link": "#",
-    "image": "./medias/images/the_slip.png"
+    "image": "./medias/images/the_slip.png",
+    "modalVideo": "https://www.youtube.com/embed/Vi0Gp-dnBj8"
   }
 ]

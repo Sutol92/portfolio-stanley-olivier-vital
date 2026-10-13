@@ -15,7 +15,6 @@
   display: grid;
   place-items: center;
   padding: 2rem 1rem;
-  
 }
 
 /* le flou par dessus le reste du site quand le pop up est ouvert */
@@ -60,6 +59,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.project-modal__media iframe {
+  display: block;
+  width: 100%;
+  min-height: min(52vw, 620px);
+  border: 0;
 }
 /* texte/contenu de la modale */
 .project-modal__content {

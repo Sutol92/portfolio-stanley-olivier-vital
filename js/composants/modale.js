@@ -45,7 +45,10 @@ function fillModal(modal, project) {
   const sections = modal.querySelector("[data-modal-sections]");
 
   media.className = "project-modal__media";
-  media.style.backgroundImage = project.image ? `url("${project.image}")` : "";
+  media.style.backgroundImage = "";
+  media.innerHTML = project.modalVideo
+    ? `<iframe src="${project.modalVideo}" title="Vidéo de ${project.title || ""}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>`
+    : "";
   category.textContent =
     project.year && project.category
       ? `${project.year} • ${project.category}`

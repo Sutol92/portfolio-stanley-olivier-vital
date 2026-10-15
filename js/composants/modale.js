@@ -16,7 +16,7 @@ function createModalMarkup() {
 				<p class="project-modal__subtitle" data-modal-subtitle></p>
 				<dl class="project-modal__details" data-modal-details>
 					<div class="project-modal__detail">
-						<dt>Personnel académique</dt>
+						<dt>Personnel ou académique</dt>
 						<dd data-modal-personnel-academique></dd>
 					</div>
 					<div class="project-modal__detail">
@@ -28,7 +28,7 @@ function createModalMarkup() {
 						<dd data-modal-equipe></dd>
 					</div>
 					<div class="project-modal__detail">
-						<dt>Noms</dt>
+						<dt>Noms des coéquipiers</dt>
 						<dd data-modal-noms></dd>
 					</div>
 					<div class="project-modal__detail">

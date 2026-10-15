@@ -9,12 +9,12 @@
     "link": "#",
     "image": "./medias/images/art_du_ragebait.png",
     "modalVideo": "https://www.youtube.com/embed/TtMNReYfaI8",
-    "personnel_académique": "",
+    "personnel_académique": "Projet académique",
     "Cours": "Animation 2D",
     "equipe": "En équipe de 2",
     "noms": "Efraïm Canizalez",
     "roles": "Storyboard, création des médias, animation, composition, doublage",
-    "date": ""
+    "date": "16 Mai 2025"
   },
   {
     "id": "maison",
@@ -26,12 +26,12 @@
     "link": "#",
     "image": "./medias/images/ascension.jpg",
     "modalVideo": "https://www.youtube.com/embed/gV8NzDL91bE",
-    "personnel_académique": "",
-    "Cours": "",
-    "equipe": "",
-    "noms": "",
-    "roles": "",
-    "date": ""
+    "personnel_académique": "Projet académique",
+    "Cours": "Animation 3D",
+    "equipe": "Individuel",
+    "noms": "-",
+    "roles": "Création des scènes en 3D, création de la trame sonore, animation, composition, montage, éclairage, montage",
+    "date": "24 Avril 2026"
   },
   {
     "id": "mort",
@@ -43,12 +43,12 @@
     "link": "#",
     "image": "./medias/images/touche_de_la_mort.png",
     "modalVideo": "https://www.youtube.com/embed/JTh6l2Lr5t0",
-    "personnel_académique": "",
-    "Cours": "",
-    "equipe": "",
-    "noms": "",
-    "roles": "",
-    "date": "",
+    "personnel_académique": "Projet académique",
+    "Cours": "Vidéo 2",
+    "equipe": "En équipe de 3",
+    "noms": "Pablo Pereira Calderon, Luiz Felippe Avelino Sousa",
+    "roles": "Cadrage, éclairage, montage",
+    "date": "20 Octobre 2025",
     "modalSections": [
       {
         "title": "Préparation du tournage",
@@ -80,11 +80,11 @@
     "link": "#",
     "image": "./medias/images/pastiche_pixar.png",
     "modalVideo": "https://www.youtube.com/embed/nUTaX4419N8",
-    "personnel_académique": "",
-    "Cours": "",
-    "equipe": "",
-    "noms": "",
-    "roles": "",
+    "personnel_académique": "Projet académique",
+    "Cours": "Animation 3D",
+    "equipe": "Individuel",
+    "noms": "-",
+    "roles": "Création de la scène en 3D, animation, éclairage, montage",
     "date": ""
   },
   {
@@ -97,12 +97,12 @@
     "link": "#",
     "image": "./medias/images/poisshomme.png",
     "modalVideo": "https://www.youtube.com/embed/6Ix1aUWHt0Y",
-    "personnel_académique": "",
-    "Cours": "",
-    "equipe": "",
-    "noms": "",
-    "roles": "",
-    "date": ""
+    "personnel_académique": "Projet académique",
+    "Cours": "Vidéo",
+    "equipe": "En équipe de 3",
+    "noms": "Mateo Rodriguez Fontaine, Pablo Pereira Calderon, Luiz Felippe Avelino Sousa",
+    "roles": "Cadrage, éclairage",
+    "date": "19 Mai 2025"
   },
   {
     "id": "the-slip",
@@ -114,11 +114,11 @@
     "link": "#",
     "image": "./medias/images/the_slip.png",
     "modalVideo": "https://www.youtube.com/embed/Vi0Gp-dnBj8",
-    "personnel_académique": "",
-    "Cours": "",
-    "equipe": "",
-    "noms": "",
-    "roles": "",
-    "date": ""
+    "personnel_académique": "Projet académique",
+    "Cours": "Vidéo 2",
+    "equipe": "En équipe de 3",
+    "noms": "Olivier Laliberté, Efraïm Canizalez",
+    "roles": "Cadrage, éclairage, montage",
+    "date": "8 Décembre 2025"
   }
 ]

@@ -81,7 +81,7 @@
     opacity 0.2s ease;
 }
 /* version mobile de la nav bar */
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .site-header {
     position: sticky;
     display: flex;

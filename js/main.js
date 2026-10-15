@@ -76,7 +76,7 @@ function initProjectCardAnimations() {
     cards.forEach((card) => card.classList.add("is-visible"));
     return;
   }
-
+// cette constante observe les cartes de projet et quand 15% de la carte est visible sa envoie le signal pour commencer l'animation de la carte
   const observer = new IntersectionObserver(
     (entries, currentObserver) => {
       entries.forEach((entry) => {

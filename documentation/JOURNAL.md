@@ -55,3 +55,9 @@
 **Prompt :** Fait en sorte que si on appui sur voir le projet un pop up qui apparaitrait comme le popup.png avec les informations du ficher projets.json qui remplissent l'information en dessous de l'image.
 
 **Résulat :** Il m'a donné un code dans le fichier modale.js qui donnait un pop up a chaque fois que j'appuyais sur "voir le projet" qui était rempli avec l'information de chaque projet (l'information était pas encore la bonne donc j'ai du la changé).
+
+**Date :** 2026-10-14
+
+**Prompt :** Fais une animation des cartes qui apparaissent sur l'écran lorsqu'on scroll, je veux qu'on voit les cartes glisser en place vers le haut avec l'opacité qui passe de 0% à 100% en même temps.
+
+**Résulat :** Il m

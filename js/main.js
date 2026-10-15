@@ -63,6 +63,37 @@ function renderProjects(projects) {
   applyProjectImages(grid, projects);
 }
 
+// Anime les cartes lorsqu'elles entrent dans la zone visible de l'écran.
+function initProjectCardAnimations() {
+  const cards = document.querySelectorAll(".carte-projet");
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    cards.forEach((card) => card.classList.add("is-visible"));
+    return;
+  }
+
+  if (!("IntersectionObserver" in window)) {
+    cards.forEach((card) => card.classList.add("is-visible"));
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, currentObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        entry.target.classList.add("is-visible");
+        currentObserver.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.15 },
+  );
+
+  cards.forEach((card) => observer.observe(card));
+}
+
 // Donne les projets aux modales pour les pop ups
 function initProjectModal(projects) {
   if (typeof window.initModaleProjet !== "function") {
@@ -108,6 +139,7 @@ async function init() {
   try {
     const projects = await loadProjects();
     renderProjects(projects);
+    initProjectCardAnimations();
     initProjectModal(projects);
   } catch (error) {
     console.error(error);

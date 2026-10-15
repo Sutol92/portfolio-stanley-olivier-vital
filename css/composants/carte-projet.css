@@ -9,10 +9,32 @@
   color: var(--text);
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
   cursor: pointer;
+  opacity: 0;
+  /* animation de chargement des cartes de projets */
+  transform: translateY(42px);
   transition:
     transform 0.2s ease,
+    opacity 0.7s ease,
     box-shadow 0.2s ease,
     border-color 0.2s ease;
+}
+
+.carte-projet.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    transform 0.7s ease,
+    opacity 0.7s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+/* fin de l'animation de chargement ^ */
+.carte-projet:nth-child(2) {
+  transition-delay: 0.12s;
+}
+
+.carte-projet:nth-child(3) {
+  transition-delay: 0.24s;
 }
 
 /* animation de hover de la carte */
@@ -147,5 +169,14 @@
 
   .carte-projet__description {
     font-size: clamp(0.78rem, 3.5vw, 0.88rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carte-projet,
+  .carte-projet.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }

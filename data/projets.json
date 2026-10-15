@@ -8,7 +8,13 @@
     "year": "2025",
     "link": "#",
     "image": "./medias/images/art_du_ragebait.png",
-    "modalVideo": "https://www.youtube.com/embed/TtMNReYfaI8"
+    "modalVideo": "https://www.youtube.com/embed/TtMNReYfaI8",
+    "personnel_académique": "",
+    "Cours": "Animation 2D",
+    "equipe": "En équipe de 2",
+    "noms": "Efraïm Canizalez",
+    "roles": "Storyboard, création des médias, animation, composition, doublage",
+    "date": ""
   },
   {
     "id": "maison",
@@ -19,7 +25,13 @@
     "year": "2026",
     "link": "#",
     "image": "./medias/images/ascension.jpg",
-    "modalVideo": "https://www.youtube.com/embed/gV8NzDL91bE"
+    "modalVideo": "https://www.youtube.com/embed/gV8NzDL91bE",
+    "personnel_académique": "",
+    "Cours": "",
+    "equipe": "",
+    "noms": "",
+    "roles": "",
+    "date": ""
   },
   {
     "id": "mort",
@@ -31,6 +43,12 @@
     "link": "#",
     "image": "./medias/images/touche_de_la_mort.png",
     "modalVideo": "https://www.youtube.com/embed/JTh6l2Lr5t0",
+    "personnel_académique": "",
+    "Cours": "",
+    "equipe": "",
+    "noms": "",
+    "roles": "",
+    "date": "",
     "modalSections": [
       {
         "title": "Préparation du tournage",
@@ -61,7 +79,13 @@
     "year": "2026",
     "link": "#",
     "image": "./medias/images/pastiche_pixar.png",
-    "modalVideo": "https://www.youtube.com/embed/nUTaX4419N8"
+    "modalVideo": "https://www.youtube.com/embed/nUTaX4419N8",
+    "personnel_académique": "",
+    "Cours": "",
+    "equipe": "",
+    "noms": "",
+    "roles": "",
+    "date": ""
   },
   {
     "id": "poishomme",
@@ -72,7 +96,13 @@
     "year": "2024",
     "link": "#",
     "image": "./medias/images/poisshomme.png",
-    "modalVideo": "https://www.youtube.com/embed/6Ix1aUWHt0Y"
+    "modalVideo": "https://www.youtube.com/embed/6Ix1aUWHt0Y",
+    "personnel_académique": "",
+    "Cours": "",
+    "equipe": "",
+    "noms": "",
+    "roles": "",
+    "date": ""
   },
   {
     "id": "the-slip",
@@ -83,6 +113,12 @@
     "year": "2025",
     "link": "#",
     "image": "./medias/images/the_slip.png",
-    "modalVideo": "https://www.youtube.com/embed/Vi0Gp-dnBj8"
+    "modalVideo": "https://www.youtube.com/embed/Vi0Gp-dnBj8",
+    "personnel_académique": "",
+    "Cours": "",
+    "equipe": "",
+    "noms": "",
+    "roles": "",
+    "date": ""
   }
 ]

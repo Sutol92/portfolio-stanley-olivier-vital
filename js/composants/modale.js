@@ -14,6 +14,32 @@ function createModalMarkup() {
 				<p class="project-modal__meta" data-modal-category></p>
 				<h3 id="project-modal-title" class="project-modal__title" data-modal-title></h3>
 				<p class="project-modal__subtitle" data-modal-subtitle></p>
+				<dl class="project-modal__details" data-modal-details>
+					<div class="project-modal__detail">
+						<dt>Personnel académique</dt>
+						<dd data-modal-personnel-academique></dd>
+					</div>
+					<div class="project-modal__detail">
+						<dt>Cours</dt>
+						<dd data-modal-cours></dd>
+					</div>
+					<div class="project-modal__detail">
+						<dt>Équipe</dt>
+						<dd data-modal-equipe></dd>
+					</div>
+					<div class="project-modal__detail">
+						<dt>Noms</dt>
+						<dd data-modal-noms></dd>
+					</div>
+					<div class="project-modal__detail">
+						<dt>Rôles</dt>
+						<dd data-modal-roles></dd>
+					</div>
+					<div class="project-modal__detail">
+						<dt>Date</dt>
+						<dd data-modal-date></dd>
+					</div>
+				</dl>
 				<p class="project-modal__description" data-modal-description></p>
         <div class="project-modal__sections" data-modal-sections></div>
 			</div>
@@ -41,6 +67,7 @@ function fillModal(modal, project) {
   const category = modal.querySelector("[data-modal-category]");
   const title = modal.querySelector("[data-modal-title]");
   const subtitle = modal.querySelector("[data-modal-subtitle]");
+  const details = modal.querySelector("[data-modal-details]");
   const description = modal.querySelector("[data-modal-description]");
   const sections = modal.querySelector("[data-modal-sections]");
 
@@ -55,6 +82,13 @@ function fillModal(modal, project) {
       : project.category || project.year || "";
   title.textContent = project.title || "";
   subtitle.textContent = project.subtitle || "";
+  details.querySelector("[data-modal-personnel-academique]").textContent =
+    project["personnel_académique"] || "";
+  details.querySelector("[data-modal-cours]").textContent = project.Cours || "";
+  details.querySelector("[data-modal-equipe]").textContent = project.equipe || "";
+  details.querySelector("[data-modal-noms]").textContent = project.noms || "";
+  details.querySelector("[data-modal-roles]").textContent = project.roles || "";
+  details.querySelector("[data-modal-date]").textContent = project.date || "";
   description.textContent = project.description || "";
 
   sections.innerHTML = (project.modalSections || [])

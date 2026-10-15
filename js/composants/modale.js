@@ -24,6 +24,10 @@ function createModalMarkup() {
 						<dd data-modal-cours></dd>
 					</div>
 					<div class="project-modal__detail">
+						<dt>Logiciel(s)</dt>
+						<dd data-modal-logiciels></dd>
+					</div>
+					<div class="project-modal__detail">
 						<dt>Équipe</dt>
 						<dd data-modal-equipe></dd>
 					</div>
@@ -85,6 +89,8 @@ function fillModal(modal, project) {
   details.querySelector("[data-modal-personnel-academique]").textContent =
     project["personnel_académique"] || "";
   details.querySelector("[data-modal-cours]").textContent = project.Cours || "";
+  details.querySelector("[data-modal-logiciels]").textContent =
+    project.logiciels || "";
   details.querySelector("[data-modal-equipe]").textContent = project.equipe || "";
   details.querySelector("[data-modal-noms]").textContent = project.noms || "";
   details.querySelector("[data-modal-roles]").textContent = project.roles || "";
